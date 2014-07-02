@@ -32,16 +32,8 @@ class ecMetal_Run extends Simulation {
 		"""X-Ops-Userid""" -> """tfitch""",
 		"""X-Remote-Request-Id""" -> """f21eba70-ba80-42aa-b16a-bacc57e3527d""")
 
-	val scn = scenario("ec metal verification")
-		.exec(http("tfitch_clients_1")
-			.get("""/organizations/tfitch/clients""")
-			.headers(headers_1))
-		.pause(2)
-		.exec(http("tfitch_clients_2")
-			.get("""/organizations/tfitch/clients""")
-			.headers(headers_1))
-		.pause(2)
-		.exec(http("tfitch_clients_3")
+	val scn = scenario("Scenario Name")
+		.exec(http("request_1")
 			.get("""/organizations/tfitch/clients""")
 			.headers(headers_1))
 
