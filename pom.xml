@@ -55,7 +55,7 @@
 							<dataFolder>src/test/resources/data</dataFolder>
 							<resultsFolder>target/gatling/results</resultsFolder>
 							<requestBodiesFolder>src/test/resources/request-bodies</requestBodiesFolder>-->
-							<simulationsFolder>src/test/scala</simulationsFolder>
+							<simulationsFolder>src/test/scala/basic</simulationsFolder>
 							<includes>
 								<include>**/*.scala</include>
 							</includes>
