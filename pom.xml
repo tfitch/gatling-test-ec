@@ -54,14 +54,13 @@
 							<!--<configDir>src/test/resources</configDir>
 							<dataFolder>src/test/resources/data</dataFolder>
 							<resultsFolder>target/gatling/results</resultsFolder>
-							<requestBodiesFolder>src/test/resources/request-bodies</requestBodiesFolder>-->
+							<requestBodiesFolder>src/test/resources/request-bodies</requestBodiesFolder>
 							<simulationsFolder>src/test/scala/basic</simulationsFolder>
 							<includes>
-								<include>**/basic/*.scala</include>
-							</includes>
+								<include>**/*.scala</include>
+							</includes>-->
 							<excludes>
 								<exclude>advanced/*.scala</exclude>
-								<exclude>ec/*.scala</exclude>
 							</excludes>
 						</configuration>
 					</execution>
