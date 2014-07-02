@@ -57,7 +57,7 @@
 							<requestBodiesFolder>src/test/resources/request-bodies</requestBodiesFolder>-->
 							<simulationsFolder>src/test/scala/basic</simulationsFolder>
 							<includes>
-								<include>**/*.scala</include>
+								<include>**/basic/*.scala</include>
 							</includes>
 							<excludes>
 								<exclude>advanced/*.scala</exclude>
