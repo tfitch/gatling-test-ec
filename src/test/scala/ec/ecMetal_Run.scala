@@ -44,8 +44,6 @@ class ecMetal_Run extends Simulation {
 		.exec(http("tfitch_clients_3")
 			.get("""/organizations/tfitch/clients""")
 			.headers(headers_1))
-		)
-		)
 
 	setUp(scn.inject(atOnce(1 user))).protocols(httpProtocol)
 }

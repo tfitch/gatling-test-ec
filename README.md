@@ -7,4 +7,4 @@ Copied from - https://github.com/excilys/gatling-maven-plugin-demo
 
 To test it out, simply execute the following command :
 
-    $mvn gatling:execute -Dgatling.simulationClass=basic.AWCRecordedSimulation
+    $mvn gatling:execute -Dgatling.simulationClass=basic.BasicExampleSimulation
