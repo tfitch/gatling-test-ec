@@ -10,7 +10,7 @@ import scala.concurrent.duration._
 import bootstrap._
 import assertions._
 
-class ecMetal_Run extends Simulation {
+class ecMetal_Replay extends Simulation {
 
 	val httpProtocol = http
 		.baseURL("https://api.opscode.piab:443")
